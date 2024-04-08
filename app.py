@@ -76,7 +76,7 @@ while True:
     cv2.imshow('Webcam', img)
     cv2.waitKey(1)
 
-    if attendance_count >= 1:
+    if attendance_count >= 4:
         print("Attendance marked for 4 persons. Exiting...")
         break
 
